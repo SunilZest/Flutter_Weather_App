@@ -22,11 +22,10 @@ and **Clean Architecture (MVVM)**. Weather data comes from **Open-Meteo**
 
 ## 📱 Screenshots
 
-| Live | Weather 
-|------|-------|-----------|------|
-| <img src="assets/homedark.jpeg" width="200"/> | <img src="assets/homelight.jpeg" width="200"/> |
+| Live Weather |
+|--------------|
+| <img src="assets/homedark.jpeg" width="200"/> <img src="assets/homelight.jpeg" width="200"/> |
 
----
 
 ## 🏗️ Architecture
 
