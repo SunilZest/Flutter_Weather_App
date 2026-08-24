@@ -8,11 +8,9 @@ import 'weather_state.dart';
 
 class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {
   WeatherBloc({
-    required GetWeatherByLocation getWeatherByLocation,
-    required SearchCityWeather searchCityWeather,
-  })  : _getWeatherByLocation = getWeatherByLocation,
-        _searchCityWeather = searchCityWeather,
-        super(const WeatherInitial()) {
+    required this._getWeatherByLocation,
+    required this._searchCityWeather,
+  }) : super(const WeatherInitial()) {
     on<FetchWeather>(_onFetchWeather);
     on<SearchWeather>(_onSearchWeather);
     on<RefreshWeather>(_onRefreshWeather);

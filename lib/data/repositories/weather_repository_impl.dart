@@ -7,10 +7,9 @@ import '../datasources/weather_remote_datasource.dart';
 
 class WeatherRepositoryImpl implements WeatherRepository {
   WeatherRepositoryImpl({
-    required WeatherRemoteDataSource remoteDataSource,
-    required NetworkInfo networkInfo,
-  })  : _remoteDataSource = remoteDataSource,
-        _networkInfo = networkInfo;
+    required this._remoteDataSource,
+    required this._networkInfo,
+  });
 
   final WeatherRemoteDataSource _remoteDataSource;
   final NetworkInfo _networkInfo;
