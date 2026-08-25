@@ -51,7 +51,7 @@ class _DailyRow extends StatelessWidget {
         child: Transform.translate(offset: Offset((1 - value) * 20, 0), child: child),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
         child: Row(
           children: [
             SizedBox(
