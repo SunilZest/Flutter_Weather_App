@@ -13,7 +13,7 @@ class AppColors {
   static const Color pink = Color(0xFFEA5C8F);
   static const Color pinkLight = Color(0xFFFF8FB1);
   static const Color red = Color(0xFFE5484D);
-  static const Color black = Color(0xFF121417);
+  static const Color black = Color.fromARGB(255, 21, 24, 28);
 
   // Light theme surface colors
   static const Color lightBackground = Color(0xFFF4F8FC);
